@@ -1,4 +1,4 @@
-FreeCodeCamp Project: Tribute Page (Work In Progress)
+FreeCodeCamp Project: Tribute Page
 =================
 
 This is the [first project](https://www.freecodecamp.org/learn/responsive-web-design/responsive-web-design-projects/build-a-tribute-page) towards the Responsive Web Design Certification on freeCodeCamp. The objective is to build a responsive tribute page using basic HTML, plain CSS and JavaScript, fulfilling the user stories below. The tests are ran using the tool in the upper left corner of the page by selecting the test suite *Tribute Page*.
