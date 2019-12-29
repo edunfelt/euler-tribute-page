@@ -1,114 +1,162 @@
 <!DOCTYPE html>
 <html lang="en">
-<main id="main">
 
-  <head>
-    <title>Leonhard Euler Tribute Page</title>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link href="//fonts.googleapis.com/css?family=Ubuntu:300,400,500,700&display=swap" rel="stylesheet"> 
-    <!-- import the webpage's stylesheet -->
-    <link rel="stylesheet" href="style.css">
+<head>
+  <title>Leonhard Euler Tribute Page</title>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <!-- import the webpage's javascript file -->
-    <script src="script.js" defer></script>
-  </head>
+  <link href="https://fonts.googleapis.com/css?family=Ubuntu:300,400,500,700&display=swap" rel="stylesheet">
+  <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+  <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
 
-  <body>
+  <link rel="stylesheet" href="/style.css">
+</head>
+
+<body>
+  <!-- freeCodeCamp Test Suite -->
+  <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+  <main id="main">
     <div class="header">
       <h1 id="title">Leonhard Euler</h1>
       <h2>A Tribute Page</h2>
     </div>
 
     <p id="tribute-info">
-      Lorem ipsum dolor sit amet, consectetuer adipiscing elit,
-      sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.
-      Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh
-      euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.
+      One of the greatest mathematicians of the 18th century, and by many
+      regarded as the greatest thinker of all time. Euler contributed greatly to mathematics as we
+      know it today by further developing techniques in calculus, number theory and differential equations,
+      among other things. For a delightful introduction to Euler and his work, watch
+      <a id="tribute-link" href="https://www.youtube.com/watch?v=fEWj93XjON0" target="_blank">
+        A Tribute to Euler
+      </a>
+      a lecture by Euler-expert William Dunham.
     </p>
 
-    <div class="container">
-      <div class="grid-container">
+    <div class="grid-container">
+      <div class="grid-item item1-portrait">
+        <figure id="img-div">
+          <img id="image" class="grid-img"
+            src="https://cdn.glitch.com/e56cb4d1-2e66-44b3-828c-86c571238423%2Feuler_portrait.jpg?v=1577354930846"
+            alt="Leonhard Euler seated at a table, reading a mathematics book" />
+          <figcaption id="img-caption">
+            Leonhard Euler reading a mathematics book, portrait from 1851.
+          </figcaption>
+        </figure>
+      </div>
 
-        <div class="grid-item item1-portrait">
-          <figure id="img-div">
-            <img id="image" class="grid-img"
-              src="https://cdn.glitch.com/e56cb4d1-2e66-44b3-828c-86c571238423%2Feuler_portrait.jpg?v=1577354930846"
-              alt="Leonhard Euler seated at a table, reading a mathematics book" />
-            <figcaption id="img-caption">
-            A 1851 portrait of Leonhard Euler reading a mathematics book. Engraving after painting by Emanuel Handmann.
-            </figcaption>
-          </figure>
+      <div class="grid-item item2-identity">
+        <figure>
+          <img class="grid-img"
+            src="https://cdn.glitch.com/e56cb4d1-2e66-44b3-828c-86c571238423%2Feulersidentity.png?v=1577370959299"
+            alt="Euler's Identity e to the power i times pi, plus one, equals zero">
+          <figcaption>
+            Euler's formula, often considered the most remarkable formula in maths.
+          </figcaption>
+        </figure>
+      </div>
+
+      <div class="grid-item item3-works">
+        <figure>
+          <img class="grid-img"
+            src="https://cdn.glitch.com/e56cb4d1-2e66-44b3-828c-86c571238423%2Fworks.jpg?v=1577355481573"
+            alt="Bookshelf filled with old books">
+        </figure>
+        <div class="top-left-text">
+          92 volumes published
         </div>
-
-        <div class="grid-item item2-identity">
-          <figure>
-            <img class="grid-img"
-              src="https://cdn.glitch.com/e56cb4d1-2e66-44b3-828c-86c571238423%2Feulersidentity.png?v=1577370959299"
-              alt="Euler's Identity e to the power i times pi, plus one, equals zero">
-            <figcaption>
-              Euler's formula, by many considered the most remarkable formula in mathematics.
-            </figcaption>
-          </figure>
-        </div>
-
-        <div class="grid-item item3-works">
-          <figure>
-            <img class="grid-img"
-              src="https://cdn.glitch.com/e56cb4d1-2e66-44b3-828c-86c571238423%2Fworks.jpg?v=1577355481573"
-              alt="Bookshelf filled with old books">
-          </figure>
-          <div class="top-left-text">
-            92 volumes published
+        <div class="top-overlay">
+          <div class="overlay-text">
+            The most productive mathematician of all time,
+            Euler's collected works today fill a total of 92 volumes.
+            He was active in almost every area of mathematics at the time, resulting in an
+            <a href="https://en.wikipedia.org/wiki/List_of_things_named_after_Leonhard_Euler" target="_blank">
+              impressive list
+            </a>
+            of things named after him.
           </div>
         </div>
+      </div>
 
-        <div class="grid-item item4-sight">
-          <figure>
-            <img class="grid-img"
-              src="https://cdn.glitch.com/e56cb4d1-2e66-44b3-828c-86c571238423%2Fsight.jpg?v=1577355762390"
-              alt="Glasses lying on newspapers">
-          </figure>
-        </div>
-
-        <div class="grid-item item5-graph">
-          <figure>
-            <img class="grid-img"
-              src="https://cdn.glitch.com/e56cb4d1-2e66-44b3-828c-86c571238423%2Fgraph.jpg?v=1577355696767"
-              alt="Map of Königsberg with the reiver Pregel and its seven bridges highlighted">
-          </figure>
-        </div>
-
-        <div class="grid-item item6-map">
-          <figure>
-            <img class="grid-img"
-              src="https://cdn.glitch.com/e56cb4d1-2e66-44b3-828c-86c571238423%2Fmap.gif?v=1577355285944"
-              alt="Map of Switzerland">
-          </figure>
-        </div>
-
-        <div class="grid-item item7-discoveries">
-          <figure>
-            <img class="grid-img"
-              src="https://cdn.glitch.com/e56cb4d1-2e66-44b3-828c-86c571238423%2Fmath.jpg?v=1577370424860"
-              alt="Book of mathematics with pen.">
-          </figure>
-        </div>
-
-        <div class="grid-item item8-footer">
-          Footer
+      <div class="grid-item item4-sight">
+        <figure>
+          <img class="grid-img"
+            src="https://cdn.glitch.com/e56cb4d1-2e66-44b3-828c-86c571238423%2Fsight.jpg?v=1577355762390"
+            alt="Glasses lying on newspapers">
+        </figure>
+        <div class="top-overlay">
+          <div class="overlay-text">
+            Euler was almost completely blind at the age of 59. He is quoted to have said
+            "Now I will have fewer distractions".
+          </div>
         </div>
       </div>
+
+      <div class="grid-item item5-graph">
+        <figure>
+          <img style="width: 100%; height: 100%;" class="grid-img"
+            src="https://cdn.glitch.com/e56cb4d1-2e66-44b3-828c-86c571238423%2Fgraph.jpg?v=1577355696767"
+            alt="Map of Königsberg with the reiver Pregel and its seven bridges highlighted">
+        </figure>
+        <div class="top-overlay">
+          <div class="overlay-text">
+            Can you follow a path crossing each bridge only once, and return?
+            No, said Euler and thus, graph theory was born.
+          </div>
+        </div>
+      </div>
+
+      <div class="grid-item item6-map">
+        <figure>
+          <img class="grid-img"
+            src="https://cdn.glitch.com/e56cb4d1-2e66-44b3-828c-86c571238423%2Fmap.gif?v=1577355285944"
+            alt="Map of Switzerland">
+        </figure>
+        <div class="bottom-overlay">
+          <div class="overlay-text">
+            Euler was born 1707 in Basel, Switzerland. At the age of 13 he
+            began studying philosophy and recieved private lessons by mathematician Johann Bernoulli,
+            Only three years later he recieved a Master in Philosophy.
+          </div>
+        </div>
+      </div>
+
+      <div class="grid-item item7-discoveries">
+        <figure>
+          <img class="grid-img"
+            src="https://cdn.glitch.com/e56cb4d1-2e66-44b3-828c-86c571238423%2Fmath.jpg?v=1577370424860"
+            alt="Book of mathematics with pen.">
+        </figure>
+        <div class="bottom-overlay">
+          <div class="overlay-text">
+            Euler contributed to major discoveries in fields such as geometry, number theory,
+            calculus, algebra and even physics.
+            Notably, he created and popularized mathematical notation such as \( f(x), i, e, \sin, \cos \)
+            and \( \tan \).
+            He also developed techniques for working with power series, solving the Basel problem
+            among other things:
+            \[
+            \sum_{n=1}^\infty \frac{1}{n^2} = \frac{1}{1!} + \frac{1}{2!}
+            + \ldots = \frac{\pi^2}{6}.
+            \]
+          </div>
+        </div>
+      </div>
+
+      <div class="grid-item item8-footer">
+        Emilia Dunfelt, 2019-12-29
+        <br>
+        <a href="https://research.britishmuseum.org/research/collection_online/collection_object_details.aspx?objectId=3739977&page=11&partId=1&plaA=42062-2-21&place=42062"
+          target="_blank" class="footer-links">
+          Portrait from the British Museum online collection
+        </a>
+        <br>
+        <a href="http://legacy.lib.utexas.edu/maps/" target="_blank" class="footer-links">
+          Map scanned by the University of Texas Library
+        </a>
+      </div>
     </div>
-
-    <!-- include the Glitch button to show what the webpage is about and
-          to make it easier for folks to view source and remix -->
-    <div class="glitchButton" style="position:fixed;top:20px;right:20px;"></div>
-    <script src="https://button.glitch.me/button.js"></script>
-    <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
-  </body>
-
-</main>
-
+  </main>
+</body>
 </html>
