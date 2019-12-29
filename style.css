@@ -32,7 +32,8 @@ a:link {
 }
 
 a:visited {
-  color: white;
+  color: #777777;
+  text-decoration: none;
 }
 
 a:hover {
@@ -205,7 +206,7 @@ figcaption {
   .grid-container {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
-    grid-template-rows: repeat(16, 24%);
+    grid-template-rows: repeat(16, 1fr);
     padding-left: 0;
   }
 
