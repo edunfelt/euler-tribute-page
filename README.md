@@ -1,15 +1,24 @@
 FreeCodeCamp Project: Tribute Page
 =================
 
-This is the [first project](https://www.freecodecamp.org/learn/responsive-web-design/responsive-web-design-projects/build-a-tribute-page) towards the Responsive Web Design Certification on freeCodeCamp. The objective is to build a responsive tribute page using basic HTML, plain CSS and JavaScript, fulfilling the user stories below. The tests are ran using the tool in the upper left corner of the page by selecting the test suite *Tribute Page*.
+This is the [first project](https://www.freecodecamp.org/learn/responsive-web-design/responsive-web-design-projects/build-a-tribute-page) towards the Responsive Web Design Certificate on freeCodeCamp. The objective is to build a responsive tribute page using basic HTML, plain CSS and JavaScript, fulfilling the user stories below. The tests are ran using the tool in the upper left corner of the page by selecting the test suite *Tribute Page*.
+
 
 Emilia Dunfelt, 2019 👩‍💻
 
 
-[Full website on GitHub Pages](https://edunfelt.github.io/euler-tribute-page/)
+[Website on GitHub Pages](https://edunfelt.github.io/euler-tribute-page/)
 
 [![Remix on Glitch](https://cdn.glitch.com/2703baf2-b643-4da7-ab91-7ee2a2d00b5b%2Fremix-button.svg)](https://glitch.com/edit/#!/import/github/edunfelt/euler-tribute-page)
 
+
+Techniques Used
+------------------
+The responsive collage is built using CSS Grid, with one layout for smaller devices (less than 600px), and one for larger devices. Inspiration was taken from an [excellent article](https://www.freecodecamp.org/news/how-to-create-an-image-gallery-with-css-grid-e0f0fd666a5c/) on freeCodeCamp on how to create an image gallery. I made the necessary changes to make the images take up all available space and responsively rezise. I also added hover CSS animations and text to make the grid more interesting. 
+
+Originally I planned to have animations from the left and right as well, and not just from the top and bottom of the images, but the text inside the overlay resized to fit responsively during the animation, distracting the viewer. If you know a solution to this problem, please let me know.
+
+Suggestions on ways to improve the look and feel of the project are welcome!
 
 
 User Stories
